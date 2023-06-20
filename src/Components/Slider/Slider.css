@@ -1,0 +1,34 @@
+.slider{
+    height: calc(100vh-80px);
+    width: 95vw;
+    margin: auto;
+    overflow: hidden;
+}
+.container{
+    
+    width: 300vw;
+    height: 80vh;
+    display: flex;
+    transition: all 1s ease;
+}
+.slider-img{
+    width: 100%;
+    height:100vh;
+    margin: 0;
+    object-fit: cover;
+}
+.slider-icons{
+    width: 10px;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  
+}
+.sicon{
+    color: rgb(218, 214, 214);
+    margin-left: 10px;
+    cursor: pointer;
+}

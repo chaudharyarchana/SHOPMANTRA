@@ -1,0 +1,47 @@
+.categoriess{
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 0;
+  margin-left: auto;
+  gap: 0px;
+  width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.col{
+ 
+  width: 100%;
+  
+    
+}
+.row{
+  position: relative;
+}
+.gridbtn{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background-color: white;
+  font-size: medium;
+  color: grey;
+  font-weight: bold;
+  width: fit-content;
+  min-width: 70px;
+  border: none;
+  cursor: pointer;
+  
+}
+.row img:hover{
+  transform: rotateY(180deg);
+}
+
+
+

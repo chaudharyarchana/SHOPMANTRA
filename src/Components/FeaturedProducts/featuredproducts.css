@@ -1,0 +1,38 @@
+.featured{
+    
+    width: 80vw;
+    margin:30px  auto;
+    box-sizing: border-box;
+}
+.fptop{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fptop h3{
+    width: 30%;
+    font-size: 1rem;
+}
+.fptop p{
+    color: rgb(150, 146, 146);
+    width: 70%;
+    font-size: smaller;
+}
+.fpbottom{
+    margin-top: 20px;
+    perspective: 1000px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.fpbottom img{
+    margin-left: 0;
+    height: 300px;
+
+    
+}
+.fpbottom img:hover{
+    transform: scale(1.2); /* Adjust the scale value for desired depth effect */
+  transition: transform 0.3s ease;
+}

@@ -1,0 +1,54 @@
+.navbar{
+    margin-top: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    cursor: pointer;
+    width: 100vw;
+    
+    
+}
+.wrapper{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.left,.center,.right{
+    display: flex;
+    
+}
+.item{
+    
+    margin-left: 20px;
+
+}
+.center{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.left{
+    font-size: 1.1rem;
+    align-items: center;
+    font-weight: 400;
+}
+.right{
+    align-items: center;
+    
+    position: relative;
+}
+.count{
+    min-height: 20px;
+    min-width: 20px;
+    max-width: fit-content;
+    max-height:fit-content ;
+    background-color: rgb(31, 31, 245);
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    top: 0px;
+    right: -15px;
+    
+}

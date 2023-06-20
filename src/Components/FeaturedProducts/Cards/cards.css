@@ -1,0 +1,20 @@
+.cards{
+    margin: 0;
+    padding: 0;
+}
+.price{
+    margin: 0;
+    display: flex;
+    
+}
+.oldprice{
+    
+    color: rgb(150, 146, 146);
+}
+.newprice{
+    margin-left: 60px;
+    font-size: large;
+    font-weight: bold;
+}
+
+

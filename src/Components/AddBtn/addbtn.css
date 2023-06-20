@@ -1,0 +1,10 @@
+.addbtn{
+    width:fit-content;
+    height: fit-content;
+  
+}
+.addbutton{
+    border: none;
+    background-color: blue;
+    color: white;
+}
