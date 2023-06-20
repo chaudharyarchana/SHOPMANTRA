@@ -5,4 +5,4 @@ ShopMantra is an impressive e-commerce website that I developed using React.js, 
 ![Screenshot (132)](https://github.com/chaudharyarchana/SHOPMANTRA/assets/73676232/c6d4f40a-7f0e-43cb-94bb-2a391a8f7908)
 ![Screenshot (135)](https://github.com/chaudharyarchana/SHOPMANTRA/assets/73676232/2ab1511f-a885-4205-aab0-a4cf3d32dd3d)
 ![Screenshot (137)](https://github.com/chaudharyarchana/SHOPMANTRA/assets/73676232/4c42bec4-efdb-4a5d-b731-4d2aef3468ff)
-![Screenshot (137)](https://github.com/chaudharyarchana/SHOPMANTRA/assets/73676232/b93229d4-0cc7-408f-a983-382854c1db01)
+
