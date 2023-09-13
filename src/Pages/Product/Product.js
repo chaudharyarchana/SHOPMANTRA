@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import productimg from '../../img/pexels-viktorya-sergeeva-🫂-10956680.jpg';
+import productimg from '../../img/whitetshirt.jpg';
 import './Product.css';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 

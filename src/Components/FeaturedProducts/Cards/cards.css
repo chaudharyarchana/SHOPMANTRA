@@ -16,5 +16,10 @@
     font-size: large;
     font-weight: bold;
 }
+@media screen and (max-width: 767px){
+    .newprice,.oldprice{
+        font-size: smaller;
+    }
+}
 
 

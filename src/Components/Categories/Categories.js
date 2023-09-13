@@ -13,32 +13,32 @@ const Categories = () => {
     return <div className='categoriess'>
         <div className='col '>
             <div className='row'>
-                <img src={imgr1} alt="" style={{height:"350px",margin:"0px",objectFit:"cover" }}/>
+                <img src={imgr1} alt="" />
                 <Link className="link" to="/products/1"><button className='gridbtn'>SALE</button></Link>
                 
             </div>
             <div className='row'>
-            <img src={imgr2} alt="" style={{height:"350px",margin:"0px",objectFit:"cover"}} />
+            <img src={imgr2} alt=""  />
             <Link className="link" to="/products/1"><button className='gridbtn'>WOMEN</button></Link>
             </div>
         </div>
         <div className='col '>
             <div className='row'>
-            <img src={imgr3} alt="" style={{height:"700px",margin:"0px",objectFit:"cover"}} />
+            <img src={imgr3} alt="" style={{height:"80.9vh"}}/>
             <Link className="link" to="/products/1"><button className='gridbtn'>MEN</button></Link>
             </div>
         </div>
         <div className='col'>
             
                  <div className='row'>
-                      <img src={imgr4} alt="" style={{height:"350px",margin:"0px",objectFit:"cover" }}/>
+                      <img src={imgr4} alt=""/>
                       <Link className="link" to="/products/1"><button className='gridbtn'>ACCESSORIES</button></Link>
                       
                  </div>
             
                  
                  <div className='row'>
-               <img src={imgr6} alt="" style={{height:"350px",margin:"0px",objectFit:"cover" } }/>
+               <img src={imgr6} alt="" />
                <Link className="link" to="/products/1"><button className='gridbtn'>KIDS</button></Link>
             </div>
                 

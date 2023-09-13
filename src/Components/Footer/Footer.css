@@ -1,5 +1,5 @@
 .footer{
-    box-sizing: content-box;
+    box-sizing: border-box;
     
 }
 .top{
@@ -31,7 +31,7 @@ h4{
     margin: 30px 10px;
     font-weight: 500;
 }
-img{
+.payment{
     margin-top: 0px;
     margin-left: 300px;
     height: 60px;
@@ -42,5 +42,31 @@ img{
 .items .link{
     color: grey;
     font-size: 1rem;
+}
+@media screen and (max-width: 767px){
+    .footer{
+        font-size: small;
+    }
+    .items .link{
+        font-size: smaller;
+    }
+    .categories,.links,.about,.contact{
+        margin: 0px 10px;
+    }
+    p{
+        font-size: smaller;
+    }
+    .copyright{
+        
+        visibility: hidden;
+    }
+    .payment{
+       margin-top: 10px;
+        margin-left: 10px;
+        height: 30px;
+    }
+    h4{
+        font-size: small;
+    }
 }
 

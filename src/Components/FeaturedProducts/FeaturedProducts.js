@@ -4,7 +4,7 @@ import Cards from './Cards/Cards';
 
 import cardimg1 from '../../img/dom-hill-nimElTcTNyY-unsplash.jpg';
 import cardimg2 from '../../img/luobulinka-FO4mQZi1c0M-unsplash.jpg';
-import cardimg3 from '../../img/pexels-viktorya-sergeeva-🫂-10956680.jpg'
+// import cardimg3 from '../../img/pexels-viktorya-sergeeva-🫂-10956680.jpg';
 import cardimg4 from '../../img/pexels-godisable-jacob-914668.jpg';
 
 const FeaturedProducts = (props) => {
@@ -26,14 +26,14 @@ const FeaturedProducts = (props) => {
             oldprice:70,
             newprice:60.9,
         },
-        {
-            id:2,
-            img:cardimg3,
+        // {
+        //     id:2,
+        //     img:cardimg3,
             
-            title:"Levis Womens T-Shirt",
-            oldprice:40,
-            newprice:36.4,
-        },
+        //     title:"Levis Womens T-Shirt",
+        //     oldprice:40,
+        //     newprice:36.4,
+        // },
         {
             id:3,
             img:cardimg4,
@@ -41,6 +41,14 @@ const FeaturedProducts = (props) => {
             title:"Mango Two-Piece Dress",
             oldprice:65,
             newprice:50.6,
+        },
+        {
+            id:4,
+            img:cardimg1,
+            
+            title:"Long Sleve T-shirt",
+            oldprice:19,
+            newprice:12,
         },
     ];
 

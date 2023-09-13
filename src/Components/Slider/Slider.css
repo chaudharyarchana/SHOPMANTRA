@@ -32,3 +32,21 @@
     margin-left: 10px;
     cursor: pointer;
 }
+@media screen and (max-width: 767px) {
+.slider-img{
+    
+    width: 100vw;
+    object-fit: cover;
+    height: 70vh;
+}
+.slider-icons{
+    width: 10px;
+  position: absolute;
+  bottom: 200px;
+  right: 80px;
+  
+  margin: auto;
+  display: flex;
+  
+}
+}

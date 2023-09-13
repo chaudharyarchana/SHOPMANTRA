@@ -29,10 +29,33 @@
 .fpbottom img{
     margin-left: 0;
     height: 300px;
-
-    
+ 
 }
 .fpbottom img:hover{
     transform: scale(1.2); /* Adjust the scale value for desired depth effect */
   transition: transform 0.3s ease;
+}
+@media screen and (max-width: 767px) {
+    .featured{
+        width: 100vw;
+    }
+    .fpbottom{
+
+        font-size: xx-small;
+        margin-top: 0px;
+        perspective: 1000px;
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        
+    }
+    .fpbottom img{
+        margin-left: 0;
+        height: 120px;
+     
+    }
+    .fptop{
+        font-size: x-small;
+        margin-left: 5px;
+    }
 }

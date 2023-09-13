@@ -3,8 +3,10 @@
     box-sizing: border-box;
     height: 50px;
     cursor: pointer;
-    width: 100vw;
-    
+    width: 100%;
+    position: relative;
+   right: 10%;
+    top: 5px;
     
 }
 .wrapper{
@@ -37,6 +39,9 @@
     
     position: relative;
 }
+.density{
+    visibility: hidden;
+}
 .count{
     min-height: 20px;
     min-width: 20px;
@@ -52,3 +57,59 @@
     right: -15px;
     
 }
+/* @media screen and (max-width: 770px) and (min-width:578px) {
+   .left,.right{
+    visibility: hidden;
+   }
+   .center{
+   
+    font-size: 1.5rem;
+    margin: 0px;
+   }
+   .shopmantra{
+    margin-top: 8px;
+   }
+   .density{
+    position: relative;
+    left: 30px;
+    visibility: visible;
+    margin-top: 12px;
+    
+   }
+  } */
+  @media screen and (max-width: 716px) {
+    .left,.right{
+        visibility: hidden;
+       }
+    .density{
+        
+        position: absolute;
+        left: 3em;
+        visibility: visible;
+        margin-top: 12px;
+        
+       }
+       .asides {
+        box-sizing: border-box;
+        line-height: 60px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: larger;
+        z-index: 3;
+        position: relative;
+        top: 5px;
+        width: 150px;
+        height: 70vh;
+        background-color:rgba(255, 255, 255);
+        left: 0px;
+        color: black;
+        transition: width 0.3s ease;
+        cursor: pointer;
+      }
+  }
+  /* @media screen and (max-width: 390px) {
+     
+  } */
+  

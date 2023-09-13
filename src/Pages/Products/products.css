@@ -41,3 +41,37 @@
     margin-top: 15px;
     
 }
+
+@media screen and (max-width: 716px){
+    .products{
+        font-size: smaller;
+    }
+    .pright img{
+        margin-left: 10px;
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+    .pleft h3{
+        font-size: smaller;
+    }
+    .pleft{
+        height: 100%;
+        width: 20%;
+        margin-left: 5px;
+     }
+    input:in-range{
+        width: 70px;
+    }
+    .pright{
+        margin-left: 0px;
+        justify-content: center;
+        
+    }
+    .pright .cards img{
+        width: 90px;
+        margin-left: 0px;
+        height: 120px;
+        object-fit: contain;
+    }
+}

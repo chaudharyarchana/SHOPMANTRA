@@ -56,7 +56,7 @@ const Footer = () => {
             <div className='bottom'>
                 <h4>SHOPMANTRA</h4>
                 <span className='copyright'>&copy; All rights reserved</span>
-                <img src={PaymentImg} alt='payment'></img>
+                <img src={PaymentImg} alt='payment' className='payment'></img>
             </div>
         </div>
     )

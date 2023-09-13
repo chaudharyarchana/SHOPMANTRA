@@ -21,9 +21,10 @@ const Slider = () => {
 
     return <div className='slider'>
         <div className='container' style={{transform:`translateX(-${currentSlide*100}vw)`}}>
+          
+            <img src={img2} className='slider-img' alt="" />
             <img src={img0} className='slider-img' alt="" />
             <img src={img1} className='slider-img' alt="" />
-            <img src={img2} className='slider-img' alt="" />
         </div>
         <div className='slider-icons'>
             <ArrowCircleLeftIcon className='sicon' style={{width:"40px", height:"40px"}} onClick={slideback}/>

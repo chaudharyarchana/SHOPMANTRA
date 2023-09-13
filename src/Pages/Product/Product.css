@@ -68,3 +68,21 @@
 .productdescription{
     color: grey;
 }
+@media screen and (max-width: 716px){
+    .product{
+       font-size: small;
+       width: 90vw;
+       height: 60vh;
+    }
+    .productleft img{
+        margin-left: 5px;
+        margin-top: 0px;
+       width: 40vw;
+       object-fit: contain;
+       height: 300px;
+    }
+    .productright{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
