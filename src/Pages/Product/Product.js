@@ -39,12 +39,6 @@ const Product = () => {
             <h4> WISHLIST</h4>
         </div>
         <hr/>
-        <p className='productdescription'>
-            Product Type : T-Shirt <br/>
-            Color : White <br/>
-            Material : Cotton <br/>
-            Brand : Levis
-        </p>
 
        </div>
     </div>;
